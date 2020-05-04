@@ -12,6 +12,7 @@
         
         <!-- aqui são listadas todas as entidades -->
         <class>br.com.alura.jpa.modelo.Conta</class>
+        <class>br.com.alura.jpa.modelo.Movimentacao</class>
 
         <properties>
         	<!-- propriedades JDBC -->
