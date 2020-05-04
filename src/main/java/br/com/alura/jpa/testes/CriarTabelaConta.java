@@ -1,14 +1,12 @@
 package br.com.alura.jpa.testes;
 
-import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-public class TesteCriaTabelas {
+public class CriarTabelaConta {
 
 	public static void main(String[] args) {
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("financas");
-		EntityManager em = emf.createEntityManager();
 		
 		emf.close();
 	}
