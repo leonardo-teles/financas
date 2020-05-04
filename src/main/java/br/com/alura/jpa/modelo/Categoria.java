@@ -15,6 +15,15 @@ public class Categoria {
 	private Long id;
 	
 	private String nome;
+	
+	@Deprecated
+	public Categoria() {
+	}
+
+	public Categoria(String nome) {
+		super();
+		this.nome = nome;
+	}
 
 	public Long getId() {
 		return id;
