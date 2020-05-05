@@ -7,7 +7,6 @@ Tópicos Abordados:
    - Relacionamento para Muitos
    - Pesquisando com JPQL
    
-    <a href="https://cursos.alura.com.br/certificate/dc6ea22e-df0f-46f3-9994-b1f98b13bc45" rel="_blank">Certificado</a>
-	
+   <a href="https://cursos.alura.com.br/certificate/dc6ea22e-df0f-46f3-9994-b1f98b13bc45" rel="noopener" targer="_blank">Certificado</a>
 	
 	
