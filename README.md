@@ -1,4 +1,4 @@
-# Java e JPA: Persista seus objetos com a JPA2 e Hibernate da Alura
+# Java e JPA: Persista seus Objetos com a JPA2 e Hibernate
 
 Tópicos Abordados:
    - Introdução à Java Persistence API
@@ -7,7 +7,7 @@ Tópicos Abordados:
    - Relacionamento para Muitos
    - Pesquisando com JPQL
    
-    <a href="" rel="_blank">Certificado</a>
+    <a href="https://cursos.alura.com.br/certificate/dc6ea22e-df0f-46f3-9994-b1f98b13bc45" rel="_blank">Certificado</a>
 	
 	
 	
