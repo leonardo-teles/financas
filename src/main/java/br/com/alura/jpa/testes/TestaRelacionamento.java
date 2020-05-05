@@ -15,6 +15,9 @@ public class TestaRelacionamento {
 
 	public static void main(String[] args) {
 		
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("financas");
+		EntityManager em = emf.createEntityManager();
+		
 		Conta conta = new Conta();
 		conta.setAgencia(1234);
 		conta.setNumero(54321);
@@ -27,9 +30,6 @@ public class TestaRelacionamento {
 		movimentacao.setValor(new BigDecimal(200.0));
 		movimentacao.setTipoMovimentacao(TipoMovimentacao.ENTRADA);
 		movimentacao.setConta(conta);
-		
-		EntityManagerFactory emf = Persistence.createEntityManagerFactory("financas");
-		EntityManager em = emf.createEntityManager();
 		
 		em.getTransaction().begin();
 		

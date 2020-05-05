@@ -17,6 +17,9 @@ public class TestaRelacionamentoMovimentacaoCategoria {
 
 	public static void main(String[] args) {
 		
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("financas");
+		EntityManager em = emf.createEntityManager();
+		
 		Categoria c1 = new Categoria("Viagem");
 		Categoria c2 = new Categoria("Negócios");
 		
@@ -38,9 +41,6 @@ public class TestaRelacionamentoMovimentacaoCategoria {
 		m2.setValor(new BigDecimal(400.0));
 		m2.setCategorias(Arrays.asList(c1, c2));
 		m2.setConta(conta);
-		
-		EntityManagerFactory emf = Persistence.createEntityManagerFactory("financas");
-		EntityManager em = emf.createEntityManager();
 		
 		em.getTransaction().begin();
 		
